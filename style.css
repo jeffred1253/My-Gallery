@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+header > div:last-child {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.rodney {
+    color: #4E5150;
+    margin: 10px 0 5px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.profil img {
+    max-width: 156px;
+    max-height: 156px;
+}
+
+.profil span {
+    color: #A9A9A9;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bul {
+    width: 8%;
+    min-width: 70px;
+    height: 5vw;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 12px;
+    background: #E5E5E5;
+}
+
+.bul div:first-child {
+    color: #4E5150;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bul div:last-child {
+    color: var(--gray-4, #BDBDBD);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.man {
+    border-radius: 16px;
+    margin: 6px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    max-width: 970px;
+    justify-content: space-between;
+}
+
+.body div {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 1.2%;
+}
+
+.bloc {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    max-width: 66%;
+}
+
+.foot {
+    display: flex;
+    margin: 60px 0 26px;
+    justify-content: center;
+    color: #828282;
+    text-align: center;
+}
+
+.foot b {
+    text-decoration: underline;
+    margin: 0 3px;
+}
